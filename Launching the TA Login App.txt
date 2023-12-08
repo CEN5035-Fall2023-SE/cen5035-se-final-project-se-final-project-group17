@@ -1,0 +1,42 @@
+Launching the TA Login App
+
+1. Extract the file and save it in local folder.
+
+-> For Web:
+ 
+1. Open Command Prompt
+2. Cd into path "\ta_app\web\taweb folder"
+3. npm install
+4. npm start
+
+link: http://localhost:3000/
+
+
+-> For Server:
+
+1. Open new tab in Command Prompt
+2. Cd into path "\ta_app\server\taserver"
+3. pip install -r requirements.txt
+4. run -> python manage.py runserver
+
+link: http://localhost:8000/
+
+
+Custom Users:
+For Department Staff
+mail: TAStaff1@example.com 
+Password: password
+
+For TA Commitee Member
+mail: TACommiteeMember1@example.com 
+Password: password
+
+For Instructor
+mail: TAInstructor1@example.com 
+Password: password
+
+For Administrators
+mail: admin@example.com 
+Password: password
+
+You can change all user roles from the admin page.
